@@ -2,9 +2,8 @@ $(function() {
 
 	$.ajax({
 	  type: 'GET',	
-	  url: 'data.json',
+	  url: 'data.txt',
 	  success: function(data) {
-	  	// var temp = $.parseJSON(data);
 	    console.log(data);
 	  }
 	});
