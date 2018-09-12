@@ -2,10 +2,10 @@ $(function() {
 
 	$.ajax({
 	  type: 'GET',	
-	  url: 'data.txt',
+	  url: 'data.json',
 	  success: function(data) {
-	  	var temp = $.parseJSON(data);
-	    console.log(temp);
+	  	// var temp = $.parseJSON(data);
+	    console.log(data);
 	  }
 	});
 
