@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	$.ajax({
 	  url: "data.json",
-	  // dataType: "html",
+	  dataType: "json",
 	  success: function(data) {	  	
 	    console.log(JSON.parse(data));
 	  }
