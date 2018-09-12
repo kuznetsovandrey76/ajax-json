@@ -1,10 +1,10 @@
-$(document).ready(function() {
+$(function() {
 
 	$.ajax({
-	  url: "data.json",
-	  dataType: "json",
-	  success: function(data) {	  	
-	    console.log(data);
+	  type: 'GET',	
+	  url: 'data.txt',
+	  success: function() {
+	    console.log('ok');
 	  }
 	});
 
