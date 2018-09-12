@@ -3,8 +3,8 @@ $(function() {
 	$.ajax({
 	  type: 'GET',	
 	  url: 'data.txt',
-	  success: function() {
-	    console.log('ok');
+	  success: function(data) {
+	    console.log(data);
 	  }
 	});
 
