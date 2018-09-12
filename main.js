@@ -4,8 +4,7 @@ $(function() {
 	  type: 'GET',	
 	  url: 'data.txt',
 	  success: function(data) {
-	    console.log(data);
-	  	var temp = JSON.parse(data)
+	  	var temp = $.parseJSON(data);
 	    console.log(temp);
 	  }
 	});
