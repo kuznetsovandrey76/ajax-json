@@ -4,7 +4,7 @@ $(document).ready(function() {
 	  url: "data.json",
 	  dataType: "json",
 	  success: function(data) {	  	
-	    console.log(JSON.parse(data));
+	    console.log(data);
 	  }
 	});
 
